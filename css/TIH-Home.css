@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    position: sticky;
+    cursor: pointer;
+    background-image: linear-gradient(yellow,green);
+}
+.logo{
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .middle-nav{
+    width: 92%;
+}
+.middle-nav div{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.middle-nav ul{
+    display: flex;
+}
+.logo img{
+    width: 63%;
+    padding-left: 18px;
+}
+.right-nav{
+    width: 23%;
+    text-align: inherit;
+    margin: auto;
+}
+.middle-nav ul li{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding: 7px 9px;
+}
+.active-home,.middle-nav ul li:hover{
+    background-image: radial-gradient(white,gray);
+}
+.middle-nav ul .academics{
+    display: flex;
+    padding: 7px 5px 7px 0px;
+}
+.academics .fa{
+    padding-left: 5px;
+}
+.middle-nav ul li a{
+    display: block;
+    text-decoration: none;
+    color:darkblue;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.middle-nav ul li a:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+.middle-nav ul li:hover > ul{
+    display: block;
+}
+.middle-nav ul ul{
+    position: absolute;
+    top: 31px;
+    display: none;
+    background-color:darkkhaki;
+    padding: 1px 0px;
+    width: auto;
+    left: 0px;
+}
+.middle-nav ul ul li{
+    width: 173px;
+    line-height: 19px;
+    padding: 0px 9px;
+    border-bottom: 1px dashed white;
+}
+.middle-nav ul ul .units .fa{
+    padding-left: 5px;
+}
+.middle-nav ul ul li a{
+
+}
+.middle-nav ul ul ul{
+    top: -2px;
+    left: 191px;
+    width: auto;
+    background-color: red;
+}
+.middle-nav ul ul ul li{
+    position: relative;
+}
+.middle-nav ul ul ul li a{
+    
+}
+.middle-nav .fa{
+    color: darkblue;
+}
+#search{
+    padding: 4px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+#search:hover{
+    background-color: lavender;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-first{
+    padding: 4px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  16px;
+    color: white;
+}
+.btn-first:hover{
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+}
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url("E:/Extras/TIH/Techno-India-Hooghly-Dharampur_2.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.first-section{
+    height: 870px;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    height: 58%;
+}
+.first-half{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.big-para{
+    font-size: 40px;
+    color: crimson;
+    font-family: 'Ubuntu', sans-serif;
+}
+.heading{
+    color: yellow;
+}
+.small-para{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif
+}
+.sub-heading{
+    color: white;
+    font-size: 27px;
+}
+.second-half{
+    width: 37%;
+}
+.second-half img{
+    width: 80%;
+    border: 3px solid white;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+}
+.btn-second{
+    background-color:blueviolet;
+    font-weight: bold;
+    padding: 8px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 13px 10px 13px 0px;
+    font-size: 18px;
+}
+.btn-second:hover{
+    background-color: coral;
+}
+
+
+.second-section{
+    height: 525px;
+    display: flex;
+    max-width: 100%;
+    margin: 12px 12px 0px;
+}
+.paras{
+    width: 75%;
+    padding-left: 32px;
+    background-color: lavender;
+    height: 98%;
+    margin-left: 12px;
+}
+.section-heading{
+    padding: 5px 11px;
+    margin: 12px 17px 0px -17px;
+    background-color: black;
+    font-size: 28px;
+}
+.section-heading:hover{
+    color: white;
+    background-color: blueviolet;
+}
+.section-details{
+    padding: 5px 0px;
+}
+.addmission{
+    width: 31%;
+}
+.help-line{
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    padding: auto;
+    padding: 10px;
+    border: 5px double black;
+}
+.help-line span:hover{
+    font-weight: bold;
+}
+.help-line a{
+    color: darkblue;
+    text-decoration: none;
+}
+.help-line a:hover{
+    text-decoration: underline;
+}
+.course-offered{
+    margin-top: 6px;
+}
+.second-heading{
+    padding: 5px;
+    margin: 0px 0px 8px 0px;
+}
+.second-heading:hover{
+    color: white;
+    background-color: blueviolet;
+}
+.course-type {
+    font-size: 25px;
+    list-style-type: none;
+    font-family: Comic Sans MS;
+    color: red;
+    padding-left: 5px;
+    background-color: lavender;
+}
+.course-name {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 22px;
+}
+.course-name li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.third-section{
+    display: flex;
+    margin: 0px 12px 0px;
+    max-width: 100%;
+}
+.contact-inform{
+    width: 31%;
+}
+.second-third{
+    width: 75%;
+    display: flex;
+    margin-left: 12px;
+    padding-left: 32px;
+}
+.facilities{
+    width: 35%;
+}
+.course-video{
+    width: 65%;
+}
+.information{
+    height: 25%; 
+}
+.information a:last-child{
+    padding-bottom: 10px;
+}
+.contact{
+    height: 76%;
+}
+.contact-list,.information-list{
+    padding: 0px 0px 8px 0px;
+}
+.contact-list li,.information-list li{
+    list-style: none;
+    font-size: 24px;
+    padding-bottom: 12px;
+    background-color: lavender;
+    font-family: comic sans ms;
+    padding-left: 20px;
+}
+.contact-list li i{
+    width: 12%;
+}
+.third-section .fa{
+    font-size: 28px;
+    color: orangered;
+}
+.contact-list li a,.information-list li a{
+    text-decoration: none;
+    color: black;
+}
+.facility-name{
+    font-size: 25px;
+    text-align: center;
+    font-family: comic sans ms;
+    background-color: lavender;
+}
+.facility-name a{
+    color: black;
+    text-decoration: none;
+}
+.ragging,.wifi,.radio{
+    width: 100%;
+}
+.ragging img{
+    padding: 0px 98px;
+    width: 40%;
+}
+.wifi img{
+    width: 40%;
+    padding: 0px 94px;
+}
+.radio img{
+    width: 38%;
+    padding: 0px 94px;
+}
+.third-heading{
+    padding: 5px;
+    margin: 0px 20px 8px -20px;
+}
+.course-details{
+    width: 100%;
+}
+.course-heading{
+    width: 100%;
+}
+.course-list{
+    width: 100%;
+    margin: 0px 20px 8px -20px;
+}
+.list-head1{
+    background-color: darkgoldenrod;
+    font-size: 20px;
+    color: white;
+    padding: 6px 0px;
+}
+.list-head2{
+    background-color: forestgreen;
+    font-size: 20px;
+    color: white;
+    padding: 5px 0px;
+}
+.list-head3{
+    background-color: blueviolet;
+    font-size: 21px;
+    color: white;
+    padding: 4px 0px;
+}
+.list-head4{
+    background-color: aquamarine;
+    padding: 1px 0px;
+    text-align: center;
+}
+.list-head5{
+    background-color: coral;
+    padding: 1px 0px;
+    text-align: center;
+}
+.list-head6{
+    background-color: fuchsia;
+    padding: 1px 0px;
+    text-align: center;
+}
+.list-head6 a{
+    text-decoration: none;
+}
+.list-head6 a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.alumni-video{
+    margin: 0px 55px;
+}
+.alumni-video iframe{
+    margin: auto;
+}
+
+
+
+.contact-list li:first-child,.information-list li:first-child{
+    padding-top: 5px;
+}
+.facility-name a:hover,.contact-list li a:hover,.information-list li a:hover,.course-name li a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+
+.text-footer{
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}

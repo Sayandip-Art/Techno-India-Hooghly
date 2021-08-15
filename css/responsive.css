@@ -1,0 +1,70 @@
+@media only screen and (max-width:1150px){
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .right-nav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .height-nav{
+        height: 370px;
+    }
+    .visible-nav{
+        opacity: 0;
+    }
+}
+.contact-us{
+    background-color: bisque;
+    height: 450px;
+}
+.contact1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form{
+    max-width: 500px;
+    margin: 10px auto;
+}
+.input-form{
+    margin: 7px 0;
+    padding: 5px 11px;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.middle{
+    text-align: center;
+}
+.btn-dark{
+    border: 2px solid gray;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.burger{
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+.line{
+    width: 30px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+.section-sub-tag {
+    width: 125%;
+}

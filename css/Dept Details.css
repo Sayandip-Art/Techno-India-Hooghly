@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    position: sticky;
+    cursor: pointer;
+    background-image: linear-gradient(yellow,green);
+}
+.logo{
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .middle-nav{
+    width: 92%;
+}
+.middle-nav div{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.middle-nav ul{
+    display: flex;
+}
+.logo img{
+    width: 63%;
+    padding-left: 18px;
+}
+.right-nav{
+    width: 23%;
+    text-align: inherit;
+    margin: auto;
+}
+.middle-nav ul li{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding: 7px 9px;
+}
+.active-home,.middle-nav ul li:hover{
+    background-image: radial-gradient(white,gray);
+}
+.middle-nav ul .academics{
+    display: flex;
+    padding: 7px 5px 7px 0px;
+}
+.academics .fa{
+    padding-left: 5px;
+}
+.middle-nav ul li a{
+    display: block;
+    text-decoration: none;
+    color:darkblue;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.middle-nav ul li a:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+.middle-nav ul li:hover > ul{
+    display: block;
+}
+.middle-nav ul ul{
+    position: absolute;
+    top: 31px;
+    display: none;
+    background-color:darkkhaki;
+    padding: 1px 0px;
+    width: auto;
+    left: 0px;
+}
+.middle-nav ul ul li{
+    width: 173px;
+    line-height: 19px;
+    padding: 0px 9px;
+    border-bottom: 1px dashed white;
+}
+.middle-nav ul ul .units .fa{
+    padding-left: 5px;
+}
+.middle-nav ul ul li a{
+
+}
+.middle-nav ul ul ul{
+    top: -2px;
+    left: 191px;
+    width: auto;
+    background-color: red;
+}
+.middle-nav ul ul ul li{
+    position: relative;
+}
+.middle-nav ul ul ul li a{
+    
+}
+.middle-nav .fa{
+    color: darkblue;
+}
+#search{
+    padding: 4px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+#search:hover{
+    background-color: lavender;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-first{
+    padding: 4px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  16px;
+    color: white;
+}
+.btn-first:hover{
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+}
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url("E:/Extras/TIH/Techno-India-Hooghly-Dharampur_2.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.first-section{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 12px;
+}
+.paras{
+    margin: 0px 2px;
+    width: 75%;
+    padding-left: 32px;
+    background-color: lavender;
+    margin-left: 12px;
+}
+.big-para{
+    font-size: 28px;
+    color: crimson;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 11px;
+    margin: 12px 17px 0px -17px;
+    background-color: black;
+}
+.small-para{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif
+}
+.section-details{
+    padding: 5px 0px;
+}
+.addmission{
+    width: 30%;
+}
+.help-line{
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    padding: auto;
+    padding: 10px;
+    border: 5px double black;
+}
+.help-line span:hover{
+    font-weight: bold;
+}
+.help-line a{
+    color: darkblue;
+    text-decoration: none;
+}
+.help-line a:hover{
+    text-decoration: underline;
+}
+.course-offered,.contact{
+    padding-top: 5px;
+    justify-content: center;
+    margin-top: 6px;
+}
+.first-heading{
+    padding: 5px;
+    margin: 0px;
+}
+.big-para:hover,.first-heading:hover{
+    color: white;
+    background-color: blueviolet;
+}
+.course-type,.contact-list {
+    font-size: 25px;
+    background-color: lavender;
+    list-style-type: none;
+    font-family: Comic Sans MS;
+    color: red;
+    padding: 0px 5px;
+    margin-top: 5px;
+}
+.course-name li, .contact-list li{
+    list-style-type: none;
+    padding-left: 15px;
+    font-size: 22px;
+}
+.contact-list li{
+    padding: 5px 0px;
+}
+.course-name li a,.contact-list li a{
+    text-decoration: none;
+    color: black;
+}
+.first-section .fa{
+    font-size: 28px;
+    width: 12%;
+    padding-left: 10px;
+    color: orangered;
+}
+.contact-list li a:hover,.course-name li a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+
+
+.second-section{
+    display: flex;
+    max-width: 100%;
+    margin: 12px;
+}
+.second-first-part{
+    width: 30%;
+}
+.second-second-part{
+    width: 75%;
+}
+.information table{
+    width: 100%;
+    padding-top: 10px;
+    height: 226px;
+}
+.information table tr td{
+    padding: 5px;
+    background-color: lavender;
+}
+.information table tr td:first-child{
+    width: 20%;
+}
+.information table tr td a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+.information table tr td a:hover{
+    text-decoration: underline;
+}
+.fees table{
+    width: 100%;
+    padding-top: 20px;
+    height: 226px;
+}
+.fees table tr td,.fees table tr th{
+    border:1px solid black; 
+    text-align: center;
+}
+.information table tr td:first-child,.fees table tr:first-child,.debit-card h3{
+    background-color: darkorange;
+    font-weight: bold;
+}
+.facilities{
+    margin-right: 12px;
+}
+.facility-type{
+    padding-top: 10px;
+}
+.facility-name{
+    font-size: 25px;
+    text-align: center;
+    font-family: comic sans ms;
+    background-color: lavender;
+}
+.facility-name a{
+    color: black;
+    text-decoration: none;
+}
+.ragging,.wifi,.radio{
+    width: 100%;
+}
+.ragging img{
+    padding: 0px 98px;
+    width: 40%;
+}
+.wifi img{
+    width: 40%;
+    padding: 0px 94px;
+}
+.radio img{
+    width: 38%;
+    padding: 0px 94px;
+}
+.third-heading3{
+    margin: 0px 12px 8px 35px;
+    font-size: 28px;
+}
+.facility-name a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.debit-card{
+    padding-top: 15px;
+}
+.debit-card h3{
+    padding: 6px;
+}
+.text-footer{
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}
